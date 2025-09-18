@@ -41,6 +41,12 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 <!-- <p class="added-hostname"><a href="https://rweekly.org/live" target="_blank" class="externalLink">📦 <i>Go Live for More New Pkgs</i> 📦</a></p> --> 
 <p class="added-hostname"><a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date wtih CRANberries</i> 📦</a></p>
 
++ [topologyR: Topological Connectivity Analysis to Validate Continuous vs Segmented Modeling](https://isadorenabi.github.io/philosophy-of-statistics/posts/2025-09-19-topologyR/) - New R package that determines whether time series should use global continuous methods or segmented approaches by analyzing topological connectivity. Includes threshold exploration and connectivity checks for econometrics, potential applications to neuroscience, climate data, and others. Includes detail explanations about the relevance and novelty of the package.
+
++ [EconCausal: Rigorous Causal Inference for Time Series with Temporal Stability Validation](https://isadorenabi.github.io/philosophy-of-statistics/posts/2025-09-18-econcausal/) - R package implementing three complementary econometric methodologies (ECM-MARS, Bayesian Structural Time Series, Bayesian GLM-AR1) for determining directional relationships in temporal data with comprehensive uncertainty quantification and rolling-origin cross-validation.
+  
++ [BayesianDisaggregation: Structure Transfer Through Uncertain Proxies with Analytical Bayesian Updates](https://isadorenabi.github.io/philosophy-of-statistics/posts/2025-09-17-bayesian-disaggregation/) - R package for coherently disaggregating aggregate data (e.g., CPI) using structure from incompatible granularity levels through uncertain intermediaries. Uses PCA/SVD likelihood extraction with analytical (non-MCMC) Bayesian updating for applications in economics, neuroscience, climate science, and epidemiology.
+
 
 **CRAN**
 
