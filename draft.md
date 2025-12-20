@@ -76,6 +76,10 @@ This week’s release was curated by [Batool Almarzouq](https://batool-almarzouq
 
 - [BayesianDisaggregation](https://cran.r-project.org/web/packages/BayesianDisaggregation/index.html) - Bayesian Methods for Economic Data Disaggregation. ([GitHub](https://github.com/IsadoreNabi/BayesianDisaggregation/wiki)). This package provides a framework for relating information at incompatible levels of granularity (e.g., disaggregating national indices to sectors) using uncertain proxies. It employs analytical Bayesian updating and PCA/SVD signal extraction to incorporate uncertainty without the computational overhead of MCMC.
 
+- [bivarhr](https://cran.r-project.org/web/packages/bivarhr/index.html) - Bivariate Hurdle Models and Causal Inference for Count Data. ([GitHub](https://github.com/IsadoreNabi/bivarhr/wiki)). Implements a unified framework for analyzing correlated count time series with excess zeros using bivariate hurdle models. It combines Bayesian Model Averaging via stacking and horseshoe priors for regularization with a robust suite of causal inference tools—including Transfer Entropy and Dynamic Bayesian Networks—to rigorously validate Granger-causal relationships in high-dimensional settings.
+
+- - [bayesianOU](https://cran.r-project.org/web/packages/bayesianOU/index.html) - Nonlinear Ornstein-Uhlenbeck Processes for Price Convergence. ([GitHub](https://github.com/IsadoreNabi/bayesianOU/wiki)). A principled econometric framework for testing mean-reversion and market price convergence toward theoretical equilibria. It estimates nonlinear Ornstein-Uhlenbeck processes with cubic drift to capture increasing reversion speeds at large deviations, incorporating stochastic volatility and heavy-tailed innovations via hierarchical Bayesian inference to provide exact posterior probabilities of convergence.
+
 <p class="added-hostname"><a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date wtih CRANberries</i> 📦</a></p>
 
 + [{yaml12} 0.1.0](https://cran.r-project.org/package=yaml12): Fast 'YAML' 1.2 Parser and Formatter
