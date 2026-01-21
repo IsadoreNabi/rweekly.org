@@ -48,8 +48,13 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
   - [BayesianDisaggregation](https://cran.r-project.org/web/packages/BayesianDisaggregation/index.html) - Bayesian Methods for Economic Data Disaggregation. ([GitHub](https://github.com/IsadoreNabi/BayesianDisaggregation/wiki)). This package provides a framework for relating information at incompatible levels of granularity (e.g., disaggregating national indices to sectors) using uncertain proxies. It employs analytical Bayesian updating and PCA/SVD signal extraction to incorporate uncertainty without the computational overhead of MCMC.
 
-<p class="added-hostname"><a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date wtih CRANberries</i> 📦</a></p>
+  - [bayesianOU](https://cran.r-project.org/web/packages/bayesianOU/index.html) - Bayesian Nonlinear Ornstein-Uhlenbeck Models. ([GitHub](https://www.google.com/search?q=https://github.com/IsadoreNabi/bayesianOU/wiki)). This package fits Bayesian nonlinear Ornstein-Uhlenbeck models with cubic drift, stochastic volatility, and Student-t innovations. It employs hierarchical priors and parallel MCMC sampling via Stan to rigorously test mean-reversion and market price convergence in complex economic dynamics.
 
+  - [EmpiricalDynamics](https://cran.r-project.org/web/packages/EmpiricalDynamics/index.html) - Empirical Discovery of Differential Equations. ([GitHub](https://www.google.com/search?q=https://github.com/IsadoreNabi/EmpiricalDynamics/wiki)). This package provides a toolkit for discovering differential and difference equations from empirical time series using symbolic regression. It employs a high-performance Julia backend and Total Variation Regularized differentiation to robustly recover physical laws and economic models from noisy observational data.
+
+  - [bivarhr](https://cran.r-project.org/web/packages/bivarhr/index.html) - Bivariate Hurdle Models and Causal Inference. ([GitHub](https://www.google.com/search?q=https://github.com/IsadoreNabi/bivarhr/wiki)). This package offers a unified framework for analyzing paired count variables with excess zeros (e.g., insurgent attacks vs. counter-operations). It employs Bayesian inference and advanced causal validation tools, such as Transfer Entropy and Dynamic Bayesian Networks, to robustly model dependent count series.
+
+<p class="added-hostname"><a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date wtih CRANberries</i> 📦</a></p>
 
 **CRAN**
 
