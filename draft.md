@@ -56,6 +56,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
   
   - [SignalY](https://cran.r-project.org/web/packages/SignalY/refman/SignalY.html) - **Signal Extraction & Time Series Analysis Toolkit**. ([GitHub](https://github.com/IsadoreNabi/SignalY/wiki)). This package provides a comprehensive methodological suite for multivariate time series. It integrates **additive decomposition** (EMD, Bayesian HP-GC, Daubechies Wavelets) with **robust dimension reduction** (Bootstrapped PCA, Dynamic Factor Models, and Regularized Horseshoe regression via **Stan**). Designed for end-to-end analysis, it includes a full **unit root battery**, entropy estimation, and automated interpretation tools to recover latent trends, cycles, and relevant predictors from noisy observational data.
 
+  - [RegimeChange](https://cran.r-project.org/web/packages/RegimeChange/index.html) - This package provides a unified interface for detecting structural breaks and regime changes in time series data. It integrates frequentist and Bayesian methods (PELT, BOCPD, CUSUM) with advanced approaches like Functional Pruning (FPOP) and optional Deep Learning architectures (Autoencoders, TCN, Transformers). Designed for robust performance in challenging scenarios, it handles low signal-to-noise ratios, heavy-tailed distributions, and autocorrelated data in both offline (retrospective) and online (real-time) operational modes, seamlessly leveraging an optional high-performance Julia backend.
+
 <p class="added-hostname"><a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date wtih CRANberries</i> 📦</a></p>
 
 **CRAN**
