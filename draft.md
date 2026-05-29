@@ -58,6 +58,8 @@ This week’s release was curated by [](), with help from the R Weekly team memb
 
 - [RegimeChange](https://cran.r-project.org/web/packages/RegimeChange/index.html) - **This package provides a unified interface for detecting structural breaks and regime changes in time series data**. ([GitHub](https://github.com/IsadoreNabi/RegimeChange/wiki)). It integrates frequentist and Bayesian methods (PELT, BOCPD, CUSUM) with advanced approaches like Functional Pruning (FPOP) and optional Deep Learning architectures (Autoencoders, TCN, Transformers). Designed for robust performance in challenging scenarios, it handles low signal-to-noise ratios, heavy-tailed distributions, and autocorrelated data in both offline (retrospective) and online (real-time) operational modes, seamlessly leveraging an optional high-performance Julia backend.
 
+- [HTDV](https://github.com/IsadoreNabi/HTDV) - **This package provides a unified framework for inference on dependent and unbalanced data under strong-mixing conditions**. ([GitHub](https://github.com/IsadoreNabi/HTDV)). It integrates hierarchical Bayesian estimation via Hamiltonian Monte Carlo with frequentist (HAR, block bootstrap) and distribution-free (adaptive conformal) robustness anchors. Designed for rigorous hypothesis testing in challenging applied scenarios, it explicitly handles temporal or cross-sectional dependence, heavy-tailed distributions, and severe group imbalance by evaluating three metric-equivalent convergence regimes (TAC, WSC, MPC) in parallel to deliver a highly calibrated inferential decision.
+
 <p class="added-hostname"><a href="https://dirk.eddelbuettel.com/cranberries/cran/new/" target="_blank" class="externalLink">📦 <i>Keep up to date wtih CRANberries</i> 📦</a></p>
 
 **CRAN**
